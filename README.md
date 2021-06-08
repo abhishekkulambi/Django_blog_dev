@@ -4,7 +4,7 @@
 ### Current status Visuals
 
 
-	![Screenshot](blog_post_images/1.png)
+	![](blog_post_images/1.PNG)
 	![Screenshot](blog_post_images/2.png)
 	![Screenshot](blog_post_images/3.png)
 	![Screenshot](blog_post_images/4.png)
