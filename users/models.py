@@ -10,8 +10,8 @@ class Profile(models.Model):
 		return f'{self.user.username} Profile'
 
 	#this method will run after our model is saved
-	def save(self):
-		super().save()     #super() is used to save our parent class & this is how we save parent class using super method
+	def save(self, *args, **kwargs):
+		super().save(*args, **kwargs)     #super() is used to save our parent class & this is how we save parent class using super method
 
 		#resize the profile image using PIL package
 		img = Image.open(self.image.path)
